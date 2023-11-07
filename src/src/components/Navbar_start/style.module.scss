@@ -1,0 +1,53 @@
+nav {
+  display: flex;
+  width: 100%;
+  background-color: rgb(2, 0, 36);
+  color: white;
+  h1 {
+    padding-left: 14px;
+  }
+  h1:active {
+    color: whitesmoke;
+  }
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  align-items: center;
+  div {
+    padding: 0px 14px;
+    align-items: center;
+    button {
+      color: white;
+      border: 2px solid transparent;
+    }
+  }
+}
+
+.btnLog {
+  background-color: transparent;
+  font-size: medium;
+}
+
+.btnLog:hover {
+  color: grey;
+}
+
+.btn {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+  background-color: rgb(181, 53, 246);
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  transition: all 0.5s ease 0s !important;
+  letter-spacing: 0.1em;
+  line-height: 19px;
+  border-radius: 50rem !important;
+  font-size: medium;
+}
+.btn:hover {
+  color: black;
+  background-color: white;
+}
