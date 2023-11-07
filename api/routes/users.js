@@ -22,6 +22,7 @@ router.post("/login", (req, res) => {
         email: user.email,
         name: user.name,
         lastname: user.lastname,
+        myList: user.myList,
       };
 
       const token = generateToken(payload);

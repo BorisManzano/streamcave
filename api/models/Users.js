@@ -33,6 +33,10 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    myList: {
+      type: DataTypes.ARRAY(DataTypes.INTEGER),
+      defaultValue: [],
+    },
     salt: {
       type: DataTypes.STRING,
     },

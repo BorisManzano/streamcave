@@ -13,9 +13,7 @@ const initialState = {
 };
 
 const userReducer = createReducer(initialState, {
-  [login]: (state, action) => {
-    action.payload, (state.myList = []);
-  },
+  [login]: (state, action) => action.payload,
   [logout]: (state, action) => {
     state.name = null;
     state.lastname = null;
